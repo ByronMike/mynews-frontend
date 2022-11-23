@@ -42,7 +42,7 @@ function Home() {
   return (
     <div>
       <Head>
-        <title>Morning News - Home</title>
+        <title>Auger News - Home</title>
       </Head>
       {topArticles}
       <div className={styles.articlesContainer}>{articles}</div>
