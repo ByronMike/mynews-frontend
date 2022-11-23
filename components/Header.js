@@ -120,7 +120,7 @@ function Header() {
 		<header className={styles.header}>
 			<div className={styles.logoContainer}>
 				<Moment className={styles.date} date={date} format="MMM Do YYYY" />
-				<h1 className={styles.title}>Morning News</h1>
+				<h1 className={styles.title}>Auger News</h1>
 				{userSection}
 			</div>
 
