@@ -19,7 +19,7 @@ function Article(props) {
       return;
     }
 
-    fetch(`https://mynews-backend.vercel.app/users/canBookmark/${user.token}`)
+    fetch(`http://localhost:3000/users/canBookmark/${user.token}`)
       .then((response) => response.json())
       .then((data) => {
         console.log(props.isBookmarked);
