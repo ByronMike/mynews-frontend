@@ -1,6 +1,6 @@
 import { useDispatch, useSelector } from 'react-redux';
 import { addBookmark, removeBookmark } from '../reducers/bookmarks';
-import styles from '../styles/TopArticle.module.css';
+import styles from '../styles/Toparticle.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBookmark } from '@fortawesome/free-solid-svg-icons';
 
